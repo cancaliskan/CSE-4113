@@ -19,7 +19,7 @@
             $response["success"] = true;  
             $response["isim"] = $colIsim;
             $response["eposta"] = $colEposta;
-           // $response["parola"] = $parola;
+            $response["parola"] = $parola;
         }
     }
     echo json_encode($response);
